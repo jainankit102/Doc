@@ -1,0 +1,2 @@
+# Doc
+ Static doc host
