@@ -10,6 +10,10 @@
 {{- partial "notification.html" . -}}
 {{- partial "site-header.html" . -}}
 {{- partial "global-menu.html" . -}}
+<aside>
+    
+    {{- partial "sidebar.html" . -}}
+</aside>
 <div class="content-container">
 <main>
 {{- block "main" . -}}{{- end -}}
@@ -19,7 +23,7 @@
 </footer>
 </main>
 
-{{- partial "sidebar.html" . -}}
+
 </div>
 {{- partial "footer.html" . -}}
 </div>
