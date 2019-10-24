@@ -1,11 +1,14 @@
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+
 /* Document
    ========================================================================== */
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -17,15 +20,12 @@ html {
 
 /* Sections
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
-article,
-aside,
-footer,
-header,
-nav,
-section {
+
+article, aside, footer, header, nav, section {
   display: block;
 }
 
@@ -33,6 +33,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -40,13 +41,13 @@ h1 {
 
 /* Grouping content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
-figcaption,
-figure,
-main {
+
+figcaption, figure, main {
   /* 1 */
   display: block;
 }
@@ -54,6 +55,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
+
 figure {
   margin: 1em 40px;
 }
@@ -62,6 +64,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -75,6 +78,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -84,10 +88,12 @@ pre {
 
 /* Text-level semantics
    ========================================================================== */
+
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+
 a {
   background-color: transparent;
   /* 1 */
@@ -99,29 +105,30 @@ a {
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
-b,
-strong {
+
+b, strong {
   font-weight: inherit;
 }
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-b,
-strong {
+
+b, strong {
   font-weight: bolder;
 }
 
@@ -129,9 +136,8 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-code,
-kbd,
-samp {
+
+code, kbd, samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
@@ -141,6 +147,7 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
+
 dfn {
   font-style: italic;
 }
@@ -148,6 +155,7 @@ dfn {
 /**
  * Add the correct background and color in IE 9-.
  */
+
 mark {
   background-color: #ff0;
   color: #000;
@@ -156,6 +164,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
@@ -164,8 +173,8 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-sub,
-sup {
+
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -182,17 +191,19 @@ sup {
 
 /* Embedded content
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
-audio,
-video {
+
+audio, video {
   display: inline-block;
 }
 
 /**
  * Add the correct display in iOS 4-7.
  */
+
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -201,6 +212,7 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
+
 img {
   border-style: none;
 }
@@ -208,20 +220,19 @@ img {
 /**
  * Hide the overflow in IE.
  */
+
 svg:not(:root) {
   overflow: hidden;
 }
 
 /* Forms
    ========================================================================== */
+
 /**
  * Remove the margin in Firefox and Safari.
  */
-button,
-input,
-optgroup,
-select,
-textarea {
+
+button, input, optgroup, select, textarea {
   margin: 0;
 }
 
@@ -229,8 +240,8 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
-input {
+
+button, input {
   /* 1 */
   overflow: visible;
 }
@@ -239,8 +250,8 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
-select {
+
+button, select {
   /* 1 */
   text-transform: none;
 }
@@ -250,10 +261,8 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+
+button, html [type="button"], [type="reset"], [type="submit"] {
   -webkit-appearance: button;
   /* 2 */
 }
@@ -261,10 +270,8 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -272,10 +279,8 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+
+button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -285,6 +290,7 @@ button:-moz-focusring,
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -304,6 +310,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
 progress {
   display: inline-block;
   /* 1 */
@@ -314,6 +321,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
+
 textarea {
   overflow: auto;
 }
@@ -322,8 +330,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-[type="checkbox"],
-[type="radio"] {
+
+[type="checkbox"], [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -333,8 +341,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+
+[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -342,6 +350,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -352,8 +361,8 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
+
+[type="search"]::-webkit-search-cancel-button, [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -361,6 +370,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -370,27 +380,31 @@ textarea {
 
 /* Interactive
    ========================================================================== */
+
 /*
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
-details,
-menu {
+
+details, menu {
   display: block;
 }
 
 /*
  * Add the correct display in all browsers.
  */
+
 summary {
   display: list-item;
 }
 
 /* Scripting
    ========================================================================== */
+
 /**
  * Add the correct display in IE 9-.
  */
+
 canvas {
   display: inline-block;
 }
@@ -398,15 +412,18 @@ canvas {
 /**
  * Add the correct display in IE.
  */
+
 template {
   display: none;
 }
 
 /* Hidden
    ========================================================================== */
+
 /**
  * Add the correct display in IE 10-.
  */
+
 [hidden] {
   display: none;
 }
@@ -500,8 +517,8 @@ hr {
 /*-----------------------*
     Structure
 *-----------------------*/
-html,
-body {
+
+html, body {
   height: 100%;
 }
 
@@ -531,8 +548,8 @@ main {
   box-sizing: border-box;
   flex: 0 0 15%;
   order: -1;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow: auto;
+  height: calc(100vh - 64px);
 }
 
 @media screen and (max-width: 480px) {
@@ -758,7 +775,7 @@ header .github:hover {
   font-size: 80%;
 }
 
-.global-menu li.parent:hover > ul.sub-menu {
+.global-menu li.parent:hover>ul.sub-menu {
   box-sizing: border-box;
   display: flex;
   flex-flow: column nowrap;
@@ -823,26 +840,31 @@ main {
 
 .sidebar a {
   display: block;
-  color: #404040;
+  color: #fff;
   text-decoration: none;
   padding: .2rem 1.2rem;
-  border-left: solid 4px #f9f9f9;
-  border-bottom: solid 1px #eee;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 48px;
+  border-left: 4px solid rgba(255, 255, 255, 0);
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
 }
 
 .sidebar a:hover {
-  color: #404040;
-  background: #eee;
-  border-left: solid 4px #ccc;
+  color: #fff;
+  background: #14629f;
+  border-left: 4px solid rgba(255,255,255,0)
 }
 
 .sidebar li li a {
   padding-left: 2rem;
 }
 
-.sidebar .active > a {
-  background: #eee;
-  border-left: solid 4px #ccc;
+.sidebar .active>a {
+  background: #14629f;
+  border-left: 4px solid rgba(255,255,255,0)
 }
 
 .sidebar-footer {
@@ -870,8 +892,13 @@ footer {
   color: #999;
 }
 
+header.main-head {
+  height: 64px;
+  display: flex;
+  border-bottom: 1px solid #cccccb;
+}
 
-.main-head{
+.main-head>img {
   width: 140px;
   display: block;
 }
